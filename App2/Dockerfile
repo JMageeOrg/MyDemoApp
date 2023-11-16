@@ -2,11 +2,11 @@ FROM python:3.8-slim-buster
 
 MAINTAINER Your Name "awsashok@amazon.com"
 
-COPY ./ ./app
+COPY ../second_app ./app
 WORKDIR ./app
 
 # We copy just the requirements.txt first to leverage Docker cache
-COPY ./requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 
 RUN pip3 install -r requirements.txt
 
