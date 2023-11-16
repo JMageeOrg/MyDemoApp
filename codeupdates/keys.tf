@@ -1,0 +1,5 @@
+PRISMA_API_URL="https://api10010.eu.prismacloud.io"
+BC_API_KEY=dfhgyuidfyuedfugic-aGFc-4SGF34-DFAG6-1a35fbf9f8c1::KgHCdrsdkgh0;KRENJGUIOuG9A9e0=
+
+PRISMA_API_URL="https://api7896ISGHUYC.prismacloud.io"
+export BC_API_KEY=UYVB54H6UIDSG3fc-DG7-46FDAG7b-DFG6-56IVTRNITRUBVNafc0a::4JANrV1yJ;KDJFAGUIRTIEbvVq4=
