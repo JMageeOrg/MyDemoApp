@@ -1,0 +1,10 @@
+image: python:3.9
+
+pipelines:
+  default:
+    - step:
+        name: Run Prisma Cloud Checkov Scan
+        script:
+          - pip install checkov
+          - export PRISMA_API_URL="https://api4.prismacloud.io"
+          - checkov -d . --use-enforcement-rules --bc-api-key be1123fc-6597-467b-a8e6-563688cafc0a::4JANrV1yJwaUDg+XqunIIEbvVq4=  --repo-id jmagee-panw/TestPR --branch testPR -o cli -o junitxml --output-file-path console,CheckovReport.xml
