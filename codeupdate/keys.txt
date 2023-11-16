@@ -1,0 +1,5 @@
+export PRISMA_API_URL="https://api100.prismacloud.io"
+export BC_API_KEY="3gbyuc-a46c-4634-9hgbfitru-1alfgnb8c1::KgHCdbgri09238716IPrnwuitrnG9A9e0="
+
+export PRISMA_API_URL="https://api78.prismacloud.io"
+export BC_API_KEY=hju1123fc-6rtrtp-egm7b-apdgjtri6-563688cartbntgirtunbbeyra::4JANrV1yJwaUDg+XqughgrtuihvVq4=
